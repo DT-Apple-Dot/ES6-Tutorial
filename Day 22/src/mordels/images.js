@@ -12,4 +12,4 @@ const imgSchema = new Schema({
 );
 const Image = model("image", imgSchema)
 module.exports = { Image };
-    
+     

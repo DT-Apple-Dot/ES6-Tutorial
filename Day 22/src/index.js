@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 const mongoose = require("mongoose");
 const { v4 } = require('uuid');
 const image_route = require('./routes/image_route')
-dotenv.config();
+
 
 const fileStorage = multer.diskStorage({
     destination: (_req, _file, cb) => {
